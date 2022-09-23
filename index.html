@@ -7,73 +7,99 @@
     <meta name="keywords" content="cv, resume, samad">
     <meta name="description" content="">
     <title>Резюме - Мамедъяров Самед</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="sm.jpeg" alt="Мамедъяров Самед" width="150">
-    <h1>Мамедъяров Самед</h1>
-    <p>6+ в сфере разработки и внедрения ПО, работал в разничных сферах от ИТ-аутсорсер до сложных производственных компаний.</p>
-    <h4>Список социальных сетей:</h4>
-    <a href="https:vk.com" target="_blank">VK</a> 
-    | 
-    <a href="https://youtube.com" target="_blank">Youtube</a>
-    <h2>Мои увлечения:</h2>
-    <ol>
-        <li>Путешествие</li>
-        <li>Спорт</li>
-        <li>Книги</li>
-        <li>Кулинария</li>
-    </ol>
-    <h2>Опыт работы</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Название</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Информатика и сервис</td>
-                <td>Специалист по внедрению программного обеспечения</td>
-                <td>2015 - 2018</td>
-            </tr>
-            <tr>
-                <td>Веза-Санкт-Петербург</td>
-                <td>Специалист по внедрению информационных технологий</td>
-                <td>2018 - 2021</td>
-            </tr>
-            <tr>
-                <td>Okan</td>
-                <td>Специалист по внедрению информационных технологий</td>
-                <td>2021 - 2021</td>
-            </tr>
-            <tr>
-                <td>КОРУС Консалтинг</td>
-                <td>Бизнес-аналитик</td>
-                <td>2021 - 2022</td>
-            </tr>
-        </tbody>
-    </table>
-    <h2>Связаться со мной</h2>
-    <form>
-        <div>
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name" placeholder="Введите имя">
+    <div class="bio-info">
+        <img src="sm.jpeg" alt="Мамедъяров Самед" width="150">
+            <div class="bio-info-text">
+                <h1>Мамедъяров Самед</h1>
+                <p>Мужчина, 28 лет, родился 31 января 1994</p>
+                <h4>Контакты</h4>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><a href="tel:+79111489433">+7 (911) 1489433</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="mailto:smr3194@yandex.ru">smr3194@yandex.ru</a></td>
+                            <td>- предпочтительный способ связи</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h4>Список социальных сетей:</h4>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><a href="#" target="_blank">VK</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" target="_blank">Telegram</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" target="_blank">WhatsApp</a></td>
+                        </tr>
+                    </tbody>
+                </table>
         </div>
-        <div>
-            <label for="email">Вам email:</label>
-            <input type="email" id="email" placeholder="Введите email">
-        </div>
-
-        <div>
-            <label id="message">Ваше сообщение:</label>
-            <br>
-            <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение ..."></textarea>
-        </div>
-
-        <button type="submit">Отправить!</button>
-        
-    </form>
+    </div>
+    <div class="work-info">
+        <h2>Опыт работы</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Организация</th>
+                    <th>Начало/Окончание работы</th>
+                    <th>Должность</th>
+                    <th>Обязанности на рабочем месте</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://korusconsulting.ru/" target="_blank">Корус Консалтинг</a></td>
+                    <td>Октябрь 2021 - Август 2022</td>
+                    <td>Бизнес-Аналитик</td>
+                    <td>текст</td>
+                </tr>
+                <tr>
+                    <td><a href="https://okan.ru/" target="_blank">OKAN</a></td>
+                    <td>Март 2021 - Август 2021</td>
+                    <td>Специалист по внедрению информационных систем / Project manager</td>
+                    <td>текст</td>
+                </tr>
+                <tr>
+                    <td><a href="http://www.veza.ru/" target="_blank">Веза-Санкт-Петербург</a></td>
+                    <td>Февраль 2018 - Март 2021</td>
+                    <td>Специалист по внедрению информационных систем</td>
+                    <td>текст</td>
+                </tr>
+                <tr>
+                    <td><a href="https://infoservice.ru/" target="_blank">Информатика и Сервис</a></td>
+                    <td>Октябрь 2015 - Февраль 2018</td>
+                    <td>Специлист по внедрению программного обеспечения</td>
+                    <td>текст</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="form">
+        <h2>Связаться со мной</h2>
+        <form>
+            <div>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            <div>
+                <label for="email">Вам email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+            <div>
+                <label id="message">Ваше сообщение:</label>
+                <br>
+                <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение ..."></textarea>
+            </div>
+            <button type="submit">Отправить!</button> 
+        </form>
+    </div>
 </body>
 </html>
